@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Tactical Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <div id="sidebar">
+
+      <button id="toggleBtn">&#9776;</button>
+
+      <div class="sidebar-inner">
+
+        <button id="addHome"><span class="dot home-dot"></span> Home</button>
+        <button id="addAway"><span class="dot away-dot"></span> Away</button>
+        <button id="addBall">&#9898; Ball</button>
+
+        <hr>
+
+        <button id="undoBtn">&#8617; Undo</button>
+        <button id="clearBtn">&#10005; Clear</button>
+
+        <hr>
+
+        <button id="saveBtn">&#8595; Save</button>
+        <button id="loadBtn">&#8593; Load</button>
+        <input type="file" id="fileInput" accept=".json" style="display:none">
+
+      </div>
+    </div>
+
+    <div id="pitch-wrapper">
+      <img id="pitch" src="pitch.png" alt="Pitch">
+    </div>
+
+  </div>
+
+  <script src="board.js"></script>
+</body>
+</html>
