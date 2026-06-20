@@ -64,12 +64,14 @@ body {
   border-radius: 6px;
   color: #aaa;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px;
   flex-shrink: 0;
   align-self: flex-end;
 }
 
-#toggleBtn:hover { background: #2a2a55; color: #fff; }
+#toggleBtn:hover { 
+background: #2a2a55; color: #fff; 
+}
 
 hr {
   border: none;
@@ -79,22 +81,24 @@ hr {
 
 #sidebar button:not(#toggleBtn) {
   width: 100%;
-  padding: 7px 10px;
+  padding: 20px 10px;
   background: #1e1e40;
   border: 1px solid #2d2d55;
   border-radius: 7px;
   color: #ccc;
   font-size: 12px;
+  font-weight: 700;
   cursor: pointer;
-  text-align: left;
+  text-align: right;
   display: flex;
   align-items: center;
   gap: 8px;
   touch-action: manipulation;
 }
 
-#sidebar button:not(#toggleBtn):hover { background: #2a2a55; color: #fff; }
-#sidebar button:not(#toggleBtn):active { transform: scale(0.97); }
+#sidebar button:not(#toggleBtn):hover { 
+background: #2a2a55; color: #fff; 
+}
 
 .dot {
   width: 12px;
@@ -103,8 +107,13 @@ hr {
   flex-shrink: 0;
 }
 
-.home-dot { background: blue; }
-.away-dot { background: red; }
+.home-dot { 
+background: blue; 
+}
+
+.away-dot { 
+background: red; 
+}
 
 #pitch-wrapper {
   position: relative;
@@ -134,7 +143,9 @@ hr {
   touch-action: none;
 }
 
-.player:active, #ball:active { cursor: grabbing; }
+.player:active, #ball:active {
+cursor: grabbing; 
+}
 
 .player {
   width: 30px;
@@ -143,8 +154,13 @@ hr {
   border: 2px solid #000;
 }
 
-.home { background: blue; }
-.away { background: red; }
+.home { 
+background: blue; 
+
+}
+.away { 
+background: red; 
+}
 
 #ball {
   width: 20px;
