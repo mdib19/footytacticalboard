@@ -115,6 +115,20 @@ background: blue;
 background: red; 
 }
 
+#sidebar-footer {
+  margin-top: auto;
+  padding: 10px 0 4px;
+  font-size: 10px;
+  color: #44447a;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+ 
+#sidebar.collapsed #sidebar-footer {
+  opacity: 0;
+}
+
 #pitch-wrapper {
   position: relative;
   flex: 1;
