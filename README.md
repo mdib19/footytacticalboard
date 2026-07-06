@@ -2,9 +2,6 @@
 A simple Football Tactical Board for coaches. <br>
 (This is a personal project built with HTML, CSS and JavaScript, with the assistance of Claude AI.)
 
-## Demo:
-https://mdib19.github.io/footytacticalboard/
-
 ## Features:
 - Add and drag players freely <br>
 - Undo actions <br>
