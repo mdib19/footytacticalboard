@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IB19 Football Tactical Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <div id="sidebar">
+
+      <button id="toggleBtn">☰</button>
+      <hr>
+
+      <div class="sidebar-inner">
+
+        <button id="addHome">🔵 HOME</button>
+        <button id="addAway">🔴 AWAY</button>
+        <button id="addBall">⚪ BALL</button>
+        <hr>
+
+        <button id="undoBtn">UNDO</button>
+        <button id="clearBtn">CLEAR</button> 
+        <hr>
+
+        <button id="saveBtn">SAVE</button>
+        <button id="loadBtn">LOAD</button>
+        <input type="file" id="fileInput" accept=".json" style="display:none">
+        <hr>
+
+      </div>
+      <footer id="sidebar-footer">&copy;2026 IB19 @github.com/mdib19</footer>
+    </div>
+
+    <div id="pitch-wrapper">
+      <img id="pitch" src="pitch.png" alt="Pitch">
+    </div>
+
+  </div>
+
+  <script src="board.js"></script>
+</body>
+</html>
